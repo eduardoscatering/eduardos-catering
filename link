@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eduardo's Catering</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #f4a261;
+            color: white;
+            text-align: center;
+            padding: 1.5em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #264653;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2em;
+        }
+        .hero {
+            background-image: url('catering.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 4em 2em;
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .services, .contact {
+            background-color: #e9c46a;
+            padding: 2em;
+            margin: 1em 0;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #264653;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Eduardo's Catering</h1>
+        <p>Delicious Food, Exceptional Service</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Make Your Event Memorable</h1>
+        <p>Eduardo's Catering specializes in creating unforgettable culinary experiences for all occasions.</p>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Weddings</li>
+            <li>Corporate Events</li>
+            <li>Private Parties</li>
+            <li>Custom Menu Design</li>
+        </ul>
+        <p>We offer a wide variety of cuisines and customizable menus to suit your needs.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Eduardo's Catering has been serving the community with fresh, high-quality food for over 10 years. We pride ourselves on exceptional customer service and attention to detail, ensuring every event is a success.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: <a href="mailto:info@eduardoscatering.com">info@eduardoscatering.com</a></p>
+        <p>Phone: (555) 123-4567</p>
+        <p>Address: 123 Main Street, Anytown, USA</p>
+        <p>Follow us on social media for updates and promotions!</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Eduardo's Catering. All rights reserved.</p>
+    </footer>
+</body>
+</html>
